@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+      <link rel="stylesheet" href="../estilos/style.css">
+    <title>Frullato</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar1">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img class="logo" src="../imagenes/logo.png" alt="" >
+                  </a>
+              <a class="navbar-brand" href="../index.html">Frullato</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="../pages/FrullatosVerdes.html">Frullatos Verdes</a></li>
+                    <li><a class="dropdown-item" href="../pages/FrullatosDeFruta.html">Frullatos de Fruta</a></li>
+                    <li><a class="dropdown-item" href="../pages/FrullaPaletas.html">FrullaPaletas</a></li>
+                  </ul>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/Galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/Contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section>
+      <div class="container-fluid">
+        <div class="row p-5 bg-light text-black">
+            <div class="col-12 col-md-6 col-lg-3">
+                <p class="h3">CONTACTANOS</p>
+            </div>
+    </section>
+    
+    <section>
+      <div class="container p-3">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <form class="form" method="POST" action="" autocomplete="off">
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" autofocus required>
+              </div>
+              <div class="mb-3">
+                <label for="apellido" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="apellido" name="apellido" autofocus required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="text" class="form-control" id="email" name="email" autofocus required>
+              </div>
+              <div class="mb-3">
+                <label for="comentario" class="form-label">Comentario</label>
+                <textarea class="form-control" id="comentario" name="comentario" rows="3" required></textarea>
+              </div>
+              <button type="submit" name="submit" class="btn btn-primary">Enviar</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../imagenes/carrusel1.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../imagenes/carrusel2.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../imagenes/carrusel3.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <footer>
+      <div class="container-fluid">
+        <div class="row p-5 bg-dark text-white">
+            <div class="col-12 col-md-6 col-lg-3">
+                <p class="h3">FRULLATO</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <p>QUE HACEMOS?</p>
+                <a class="text-white text-decoration-none" href="#">Frullato de Frutas</a>
+                <br>
+                <a class="text-white text-decoration-none" href="#">Frullato de Verduras</a>
+                <br>
+                <a class="text-white text-decoration-none" href="#">Frullapaletas</a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <p>SIGUENOS EN REDES</p>
+                <a href="https://www.facebook.com/profile.php?id=100083313966956" target="_blank"><img src="../imagenes/facebook.png" alt=""></a>
+                <a href="https://www.instagram.com/frullato_co/" target="_blank"><img src="../imagenes/instagram.png" alt=""></a>
+                <a href="https://wa.me/573108795200" target="_blank"><img src="../imagenes/whatsapp.png" alt=""></a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <p>CONTACTANOS</p>
+                <img src="../imagenes/correo.png" alt="">
+                <p>Correo Electronico: frullato.co@outlook.com</p>
+                <p>Celular:3108795200</p>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
